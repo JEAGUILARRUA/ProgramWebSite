@@ -10,7 +10,6 @@
 
 }
 
-
 .boxEnfoque{width: 1200px;
              height: 400px;
              background-color: #0b6ed7;
@@ -49,12 +48,6 @@
 
 }
 
-.raya2{width:300px;
-    float: right;
-    margin-right: 180px;
-    
-}
-
 .videoEnfoque{border-radius: 30px;
             margin-top: 30px;
             margin-left: 360px;
@@ -70,71 +63,76 @@
 /* cierre estilo de pagina ENFOQUE */
 
 /* ------------------------------------------------------------------------------- */
+
 /* Apertura Estilo para pagina RUTA */
 
-.sec3{
+.bodyRuta{background-color: #000000;}
 
-    font-family:sans-serif;
+.sec3{font-family:sans-serif;
     display: flex;
     padding: 1em; 
 }
 
-.art1{
-    background-color:  rgb(11, 110, 215);
+.art1y2{
+    background-color: rgb(11, 110, 215);
     color: #fff;
-    width: 20%;
-    padding: 2em;
-    margin: 5%;
-    text-align: justify;
+    width: 700px;
+    height: 650px;
+    padding: 3em;
+    margin: 30px;
     text-align: center;
-}
-
-.art2{
-    background-color:  rgb(11, 110, 215);
-    color: #fff;
-    width: 20%;
-    padding: 2em;
-    margin: 5%;
-    text-align: center;
+    border-radius: 20px;
     
 }
 
-.art1 img{
-    width: 30%; 
+.imgFlow{margin-top: 30px;
+         height: 300px;
 }
 
-.art1 img:hover{
+.art1y2 img:hover{
     transform: scale(105%);
 }
 
-.t0{
-    position: absolute;
-    margin-left: 55%;
-    margin-top: 3.5%;
-    color:  rgb(11, 110, 215);
+.t0{font-family: sans-serif;
+    font-size: 35px;
+    text-align: right;
+    margin-right: 70px;
+    color: antiquewhite;
+    margin-top: 50px;
 }
-.t1{
-    font-size: 120%;
-}
-
-.videoR{
-    border-radius: 20PX;
-    margin-top: 10%;
+.t1{text-align:center;
+    font-size:35px;
 }
 
-.videoR:hover{
-    transform: scale(105%);
+.textRuta{font-family: sans-serif;
+          font-size: 25px;
+}
+
+.videoR{border-radius: 20PX;
+    margin-top: 10%;   
+}
+
+.pieVideoRuta{font-size:15px;
+              
+}
+
+.figcaptionRuta{margin-top:10px;
+
+}
+
+.videoR:hover{transform: scale(105%);
 }
 
 
 /* Cierre Estilo para pagina RUTA */
+
+/* ------------------------------------------------------------------------------------------------- */
 
 /* Apertura Estilo para pagina CONSEJOS */
 
 
 .consejoBody{background-color: black;
              position: relative;
-
 }
 
 .Consejos{font-family: sans-serif;
@@ -143,21 +141,14 @@
     margin-right: 170px;
     margin-top: 50px;
     color: rgb(255, 255, 255);
-
 }
 
-.raya1{width:300px;
-    float: right;
-    margin-right:170px;
-
-}
 
 .titleConsejos{font-family:sans-serif;
     font-size: 40px;
     color:rgb(255, 255, 255);
     margin:90px 135px 135px;
-    text-align: center;
-    
+    text-align: center;   
 }
 /* contenedores de consejos */
 
@@ -165,8 +156,7 @@
             height: 150px;
             background-color: #77a0ff;
             border-radius: 20px;
-            margin-left: 30px;
-        
+            margin-left: 30px;       
 }
 
 .Consejos1-6:hover{
@@ -180,8 +170,7 @@
              margin: 40px;
              padding-top: 50px;
              text-align: center;
-             background-color: #77a0ff ;
-                
+             background-color: #77a0ff ;              
 }
 
 .cardconsejos{display: flex;
@@ -289,8 +278,6 @@ footer{width: 100%;
 .textFoot{font-family: sans-serif;
     font-size: 20px;
     text-align: center;
-    
-
 }
 
 
