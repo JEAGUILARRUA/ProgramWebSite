@@ -130,16 +130,15 @@ figcaption a{font-size: 20px;
 }
 
 .videoR{border-radius: 20PX;
-    margin-top: 10%;   
+         margin-top: 10%;   
 }
 
-.pieVideoRuta{font-size:15px;
-              
+.contpieVideoRuta{margin-top:10px;
 }
 
-.figcaptionRuta{margin-top:10px;
-
+.pieVideoRuta{font-size:15px;                           
 }
+
 
 .videoR:hover{transform: scale(105%);
 }
