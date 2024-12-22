@@ -71,14 +71,18 @@
 
 }
 
-.pieVideoEnfoque{text-align: center;
-                 color: aliceblue;
-                 margin-bottom: 50px;
+.figcaption{text-align: center;
+            background-color: #000000;
+            width: 760px;
+            margin-top: 10px;
+            margin-bottom: 50px;
 
 }
 
-figcaption a{font-size: 20px;
-
+.pieVideoEnfoque{color: aliceblue;
+                 margin-bottom: 50px;
+                 font-size: 20px;
+                
 }
 
 /* cierre estilo de pagina ENFOQUE */
